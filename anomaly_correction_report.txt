@@ -1,0 +1,14 @@
+============================================================
+ANOMALY CORRECTION REPORT
+============================================================
+Dataset processed: 2025-06-04 04:53:08
+Original shape: (12174, 29)
+Final shape: (12174, 29)
+
+CORRECTIONS APPLIED:
+1. Visit_Date: Replaced '0000-00-00' with random dates (2020-2024)
+2. Visit_Time: Replaced '99:99' with random business hours (08:00-17:59)
+3. Weight: Replaced -1 values with realistic weights (45-90 kg)
+4. BMI: Replaced -1 values with realistic BMI (18-35)
+5. Age: Constrained to 18-44 years (typical pregnancy range)
+6. Hypertension: Converted Yes/No to 1/0

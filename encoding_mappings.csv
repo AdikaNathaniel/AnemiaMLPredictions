@@ -1,0 +1,52 @@
+Column,Original_Value,Encoded_Value
+Education,University Undergraduate,6
+Education,Pre-School,4
+Education,Primary,5
+Education,High School,0
+Education,Jhs,1
+Education,Masters,2
+Education,Phd,3
+Iron_Supplement,Yes,1
+Iron_Supplement,No,0
+Anemia,No,0
+Anemia,Yes,1
+Sweet food,Daily,0
+Sweet food,Weekly,2
+Sweet food,Monthly,1
+Salty food,Daily,0
+Salty food,Weekly,2
+Salty food,Monthly,1
+Cholesterol-rich food,Weekly,2
+Cholesterol-rich food,Monthly,1
+Cholesterol-rich food,Daily,0
+Grilled food,Weekly,2
+Grilled food,Monthly,1
+Grilled food,Daily,0
+Meat,Daily,0
+Meat,Weekly,2
+Meat,Monthly,1
+Spicy food,Weekly,2
+Spicy food,Monthly,1
+Spicy food,Daily,0
+Acute Respiratory Infection,No,0
+Acute Respiratory Infection,Yes,1
+Diarrhea,No,0
+Diarrhea,Yes,1
+Pneumonia,No,0
+Pneumonia,Yes,1
+Malaria,No,0
+Malaria,Yes,1
+Tuberculosis,No,0
+Tuberculosis,Yes,1
+Hepatitis,No,0
+Hepatitis,Yes,1
+Cancer,No,0
+Cancer,Yes,1
+Diabetic Mellitus,No,0
+Diabetic Mellitus,Yes,1
+Hypertension,No,0
+Hypertension,Yes,1
+Rheumatic,No,0
+Rheumatic,Yes,1
+Stroke,No,0
+Stroke,Yes,1

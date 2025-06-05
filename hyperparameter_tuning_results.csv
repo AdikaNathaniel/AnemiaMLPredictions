@@ -1,0 +1,6 @@
+Model,GridSearch Best Params,GridSearch Best Score,RandomSearch Best Params,RandomSearch Best Score,BayesSearch Best Params,BayesSearch Best Score
+XGBoost,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50}",0.6309,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.01}",0.6309,"OrderedDict({'learning_rate': 0.010689758378401214, 'max_depth': 9, 'n_estimators': 124})",0.6228
+GaussianNB,{'var_smoothing': 1e-09},0.5788,{'var_smoothing': 1e-09},0.5788,OrderedDict({'var_smoothing': 7.352481813242629e-07}),0.579
+DecisionTree,"{'criterion': 'entropy', 'max_depth': 3}",0.6306,"{'max_depth': 3, 'criterion': 'gini'}",0.6305,"OrderedDict({'criterion': 'entropy', 'max_depth': 4})",0.6291
+RandomForest,"{'criterion': 'gini', 'max_depth': 5, 'n_estimators': 50}",0.631,"{'n_estimators': 50, 'max_depth': 5, 'criterion': 'gini'}",0.631,"OrderedDict({'criterion': 'entropy', 'max_depth': 7, 'n_estimators': 110})",0.6306
+KNN,"{'metric': 'manhattan', 'n_neighbors': 7, 'weights': 'uniform'}",0.5793,"{'weights': 'uniform', 'n_neighbors': 7, 'metric': 'manhattan'}",0.5793,"OrderedDict({'metric': 'euclidean', 'n_neighbors': 9, 'weights': 'uniform'})",0.5856
